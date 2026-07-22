@@ -237,8 +237,8 @@
     "PLUM_24": "#1a0a12"
   },
   "background": {
-    "url": "https://example.com/your-image.png",
-    "blur": 0,
+    "url": "https://raw.githubusercontent.com/Yumistra/Liberate/main/Discord/20260722_211237.jpg",
+    "blur": 0.6,
     "alpha": 1,
     "size": "cover",
     "position": "center"
