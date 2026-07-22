@@ -363,7 +363,7 @@
     "YELLOW_900": "#b27700"
   },
   "background": {
-    "url": "https://example.com/your-image.png",
+    "url": "https://raw.githubusercontent.com/Yumistra/Liberate/main/Discord/20260722_211237.jpg",
     "blur": 0,
     "alpha": 1,
     "size": "cover",
