@@ -363,8 +363,8 @@
   },
   "background": {
     "url": "https://raw.githubusercontent.com/Yumistra/Liberate/main/Discord/20260722_211237.jpg",
-    "blur": 100,
-    "alpha": 3,
+    "blur": 1,
+    "alpha": 0.2,
     "size": "cover",
     "position": "center"
   },
