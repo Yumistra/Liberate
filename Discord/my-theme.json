@@ -1,6 +1,6 @@
 {
-  "name": "My Generated Theme",
-  "description": "Auto-generated from seed colors",
+  "name": "DISTORTED HEAVENS",
+  "description": "개인적인 맞춤형 테마",
   "authors": [
     {
       "name": "Yumistra"
@@ -363,8 +363,8 @@
   },
   "background": {
     "url": "https://raw.githubusercontent.com/Yumistra/Liberate/main/Discord/20260722_211237.jpg",
-    "blur": 5,
-    "alpha": 5,
+    "blur": 100,
+    "alpha": 100,
     "size": "cover",
     "position": "center"
   },
