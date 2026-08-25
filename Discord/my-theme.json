@@ -6,6 +6,17 @@
       "name": "Yumistra"
     }
   ],
+  "plus": {
+  "version": 0,
+  "mentionLineColor": "SC_TEXT_BRAND",
+  "customOverlays": true,
+  "icons": {
+    "ic_radio_circle_checked": "SC_TEXT_BRAND",
+    "ic_radio_square_checked_24px": "SC_TEXT_BRAND",
+    "ic_selection_checked_24px": "SC_TEXT_BRAND",
+    "app_installed_check": "SC_STATUS_POSITIVE"
+  },
+  }
   "semanticColors": {
     "BACKGROUND_PRIMARY": [
       "#330f21"
