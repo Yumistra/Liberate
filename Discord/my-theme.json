@@ -115,7 +115,7 @@
       "#4b1630"
     ],
     "BADGE_NOTIFICATION_BACKGROUND": [
-      "#ed2b2b"
+      "#ff2d4d"
     ],
     "BADGE_TEXT_BRAND": [
       "#FFFFFF"
@@ -211,7 +211,7 @@
       "#c92e5c"
     ],
     "CHANNELS_DEFAULT": [
-      "#270c19"
+      "#1b0812"
     ],
     "CHANNELTEXTAREA_BACKGROUND": [
       "#3f1229"
@@ -487,7 +487,7 @@
       "#d8d8e0"
     ],
     "GRADIENT_PROGRESS_PILL_BACKGROUND": [
-      "#c92e5c"
+      "#a9326e"
     ],
     "GUILD_FOLDER_BACKGROUND": [
       "#2b0d1c"
@@ -691,7 +691,7 @@
       "#47152e"
     ],
     "MOBILE_ANDROID_BUTTON_BACKGROUND_RIPPLE": [
-      "#FFFFFF1a"
+      "#ff789926"
     ],
     "MOBILE_BACKGROUND_SCRIM_OPAQUE": [
       "#1b081299"
@@ -766,7 +766,7 @@
       "#b8a5aa"
     ],
     "MOBILE_HEADER_BORDER": [
-      "#3f1229"
+      "#c92e5c"
     ],
     "MOBILE_HEADER_ICON_DEFAULT": [
       "#b8a5aa"
@@ -862,7 +862,7 @@
       "#4b1630"
     ],
     "PREMIUM_NITRO_PINK_TEXT": [
-      "#c92e5c"
+      "#FFFFFF"
     ],
     "PROFILE_GRADIENT_NOTE_BACKGROUND": [
       "#3f1229"
@@ -1166,9 +1166,9 @@
     "BRAND_360": "#fff7f9",
     "BRAND_500": "#c92e5c",
     "BRAND_560": "#330f21",
-    "GUILD_BOOSTING_PINK": "#c92e5c",
-    "GUILD_BOOSTING_PURPLE": "#c92e5c",
-    "GUILD_BOOSTING_PURPLE_FOR_GRADIENTS": "#c92e5c",
+    "GUILD_BOOSTING_PINK": "#ff5c8a",
+    "GUILD_BOOSTING_PURPLE": "#a9326e",
+    "GUILD_BOOSTING_PURPLE_FOR_GRADIENTS": "#a9326e",
     "PRIMARY_100": "#bd387a",
     "PRIMARY_230": "#9f2f67",
     "PRIMARY_300": "#8f2a5c",
