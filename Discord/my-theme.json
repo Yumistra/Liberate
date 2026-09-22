@@ -589,7 +589,7 @@
       "#fff7f9"
     ],
     "INPUT_TEXT_DEFAULT": [
-      "#ffe500"
+      "#fff7f9"
     ],
     "INPUT_TEXT_ERROR_DEFAULT": [
       "#ed2b2b"
@@ -864,24 +864,6 @@
     "PREMIUM_NITRO_PINK_TEXT": [
       "#FFFFFF"
     ],
-    "PROFILE_GRADIENT_NOTE_BACKGROUND": [
-      "#3f1229"
-    ],
-    "PROFILE_GRADIENT_OVERLAY": [
-      "#1b081288"
-    ],
-    "PROFILE_GRADIENT_OVERLAY_SYNCED_WITH_USER_THEME": [
-      "#1b081288"
-    ],
-    "PROFILE_GRADIENT_ROLE_PILL_BACKGROUND": [
-      "#47152e"
-    ],
-    "PROFILE_GRADIENT_ROLE_PILL_BORDER": [
-      "#3f1229"
-    ],
-    "PROFILE_GRADIENT_SECTION_BOX": [
-      "#47152e"
-    ],
     "PROGRESSBAR_INDICATOR_BACKGROUND": [
       "#c92e5c"
     ],
@@ -1134,9 +1116,6 @@
     "USER_PROFILE_CONTAINER_BACKGROUND": [
       "#00ff00"
     ],
-    "USER_PROFILE_GRADIENT_BACKGROUND": [
-      "#4b1630"
-    ],
     "VOICE_CHANNEL_USER_LIMIT_ACCENT_BACKGROUND": [
       "#c92e5c"
     ],
@@ -1261,8 +1240,7 @@
     "YELLOW_800": "#c7d419",
     "YELLOW_830": "#bbc718",
     "YELLOW_860": "#afbb16",
-    "YELLOW_900": "#9fa914",
-    "YELLOW_NEW_99": "#c92e5c"
+    "YELLOW_900": "#9fa914"
   },
   "background": {
     "url": "https://raw.githubusercontent.com/Yumistra/Liberate/main/Discord/20260722_211237.jpg",
