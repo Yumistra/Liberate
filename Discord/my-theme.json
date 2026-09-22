@@ -94,7 +94,7 @@
       "#3f1229"
     ],
     "BACKGROUND_SURFACE_HIGH": [
-      "#ff8800"
+      "#47152e"
     ],
     "BACKGROUND_SURFACE_HIGHEST": [
       "#5a1b3b"
@@ -835,7 +835,7 @@
       "#c92e5c"
     ],
     "MODAL_BACKGROUND": [
-      "#00ffff"
+      "#47152e"
     ],
     "MODAL_FOOTER_BACKGROUND": [
       "#3f1229"
@@ -1114,7 +1114,7 @@
       "#ffc4d3"
     ],
     "USER_PROFILE_CONTAINER_BACKGROUND": [
-      "#00ff00"
+      "#47152e"
     ],
     "VOICE_CHANNEL_USER_LIMIT_ACCENT_BACKGROUND": [
       "#c92e5c"
