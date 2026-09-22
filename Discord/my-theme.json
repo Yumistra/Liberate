@@ -178,7 +178,7 @@
       "#fff7f9"
     ],
     "CARD_BACKGROUND_DEFAULT": [
-      "#47152e"
+      "#5a1b3b"
     ],
     "CARD_BORDER_DEFAULT": [
       "#3f1229"
@@ -589,7 +589,7 @@
       "#fff7f9"
     ],
     "INPUT_TEXT_DEFAULT": [
-      "#fff7f9"
+      "#ffe500"
     ],
     "INPUT_TEXT_ERROR_DEFAULT": [
       "#ed2b2b"
