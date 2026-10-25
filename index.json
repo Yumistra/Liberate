@@ -1,0 +1,34 @@
+{
+  "format": 1,
+  "name": "Liberate",
+  "description": "Yumistra's themes for Revenge Next",
+  "plugins": {
+    "yumistra.distorted-heavens": {
+      "name": "DISTORTED HEAVENS",
+      "description": "Personal theme with fonts and a background.",
+      "author": "Yumistra",
+      "icon": "PaintPaletteIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://raw.githubusercontent.com/Yumistra/Liberate/revenge-dist/pool/yumistra.distorted-heavens@1.0.0.zip",
+          "sha256": "e13f36f5610e0f98dd899c89169bda53a48ba4855dcb09f0bdabad704e5cf240",
+          "size": 1735491,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1.2.1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "revenge.api.themes": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    }
+  }
+}
