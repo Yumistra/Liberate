@@ -1,0 +1,47 @@
+name: Revenge Next plugins
+
+# revenge/ 의 테마 플러그인을 묶어서 revenge-dist 브랜치에 올린다.
+# Revenge → Plugins 에 추가할 저장소 주소: https://raw.githubusercontent.com/Yumistra/Liberate/revenge-dist
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'revenge/**'
+      - 'Discord/my-theme.json'
+      - 'Discord/my-ttf.json'
+      - 'Discord/20260722_211237.jpg'
+      - 'ttf/**'
+      - '.github/workflows/revenge.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: revenge-dist
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: revenge
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+      # my-theme.json 이 바뀌었으면 플러그인 소스를 다시 만든다
+      - run: node scripts/theme.mjs
+      - run: npm run build
+      - run: npm run package -- --base-url "https://raw.githubusercontent.com/${{ github.repository }}/revenge-dist"
+      - name: Publish to revenge-dist
+        working-directory: revenge/dist
+        run: |
+          git init -q
+          git checkout -q -b revenge-dist
+          git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898+github-actions[bot]@users.noreply.github.com" commit -q -m "Publish ${GITHUB_SHA::7}"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" revenge-dist

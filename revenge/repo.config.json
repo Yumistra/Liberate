@@ -1,0 +1,13 @@
+{
+	"name": "Liberate",
+	"description": "Yumistra's themes for Revenge Next",
+	"channels": {},
+	"files": {
+		"yumistra.distorted-heavens": {
+			"images/background.jpg": "../Discord/20260722_211237.jpg",
+			"fonts/Regular.ttf": "../ttf/Regular.ttf",
+			"fonts/Bold.ttf": "../ttf/Bold.ttf",
+			"fonts/Extra-Bold.ttf": "../ttf/Extra-Bold.ttf"
+		}
+	}
+}

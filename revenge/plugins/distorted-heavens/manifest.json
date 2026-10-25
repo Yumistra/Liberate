@@ -1,0 +1,23 @@
+{
+	"format": 1,
+	"id": "yumistra.distorted-heavens",
+	"name": "DISTORTED HEAVENS",
+	"description": "Personal theme with fonts and a background.",
+	"author": "Yumistra",
+	"icon": "PaintPaletteIcon",
+	"version": "1.0.0",
+	"dependencies": {
+		"revenge.api": {
+			"version": ">=1.2.1 <2"
+		},
+		"discord": {
+			"version": "*"
+		},
+		"revenge.api.themes": {
+			"version": "*"
+		}
+	},
+	"dist": {
+		"script": "index.js"
+	}
+}

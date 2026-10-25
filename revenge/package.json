@@ -1,0 +1,15 @@
+{
+	"name": "liberate-revenge",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"theme": "node scripts/theme.mjs",
+		"build": "node scripts/build.mjs",
+		"package": "node scripts/package.mjs"
+	},
+	"devDependencies": {
+		"esbuild": "0.28.2",
+		"jszip": "3.10.1",
+		"typescript": "6.0.3"
+	}
+}
